@@ -1,0 +1,14 @@
+; copy and paste these lines several thousands of times and append exit
+; my last test of 20 000 lines ran in under 3 seconds.
+
+push int32(2)
+push int32(4)
+add
+assert int32(6)
+pop
+push int8(65)
+print
+pop
+assert int32(6)
+
+exit
